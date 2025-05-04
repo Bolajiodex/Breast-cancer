@@ -432,7 +432,7 @@ def create_sidebar():
         str: Selected page from the sidebar
     """
     with st.sidebar:
-        st.image("assets/logo.png", use_column_width=True)
+        st.image("assets/logo.png", use_container_width=True)
         st.title("Navigation")
         return st.radio(
             "Select a Page",
